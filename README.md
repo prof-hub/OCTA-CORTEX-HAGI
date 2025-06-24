@@ -15,7 +15,7 @@ Os agentes são divididos em diretórios independentes dentro da pasta `/familia
 5. **Fausto** – História, Geopolítica e Análise Política  
 6. **Mirtes** – Medicina Integrativa & Cannabis Medicinal  
 7. **Duda** – Design Gráfico e Identidade Visual  
-8. **Maketiane** – Marketing Digital & Copywriting Estratégico  
+8. **Marketiane** – Marketing Digital & Copywriting Estratégico
 9. **Cavernildo** – Orquestrador e Moderador dos Agentes  
 10. **Orfeu** – Executor das Redes Sociais  
 11. **Maestro** – Coordenador Criativo e de Entregas  
