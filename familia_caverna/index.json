@@ -1,0 +1,64 @@
+{
+  "agents": [
+    {
+      "id": "teresa",
+      "name": "Teresa",
+      "description": "Planejamento Financeiro Familiar"
+    },
+    {
+      "id": "francisleine",
+      "name": "Francisleine",
+      "description": "Projetos Multidisciplinares & Criativos"
+    },
+    {
+      "id": "bismarck",
+      "name": "Bismarck",
+      "description": "Administração de Sistemas Linux"
+    },
+    {
+      "id": "thor",
+      "name": "Thor",
+      "description": "Python & Inteligência Artificial"
+    },
+    {
+      "id": "fausto",
+      "name": "Fausto",
+      "description": "História, Geopolítica e Análise Política"
+    },
+    {
+      "id": "mirtes",
+      "name": "Mirtes",
+      "description": "Medicina Integrativa & Cannabis Medicinal"
+    },
+    {
+      "id": "duda",
+      "name": "Duda",
+      "description": "Design Gráfico e Identidade Visual"
+    },
+    {
+      "id": "maketiane",
+      "name": "Maketiane",
+      "description": "Marketing Digital & Copywriting Estratégico"
+    },
+    {
+      "id": "cavernildo",
+      "name": "Cavernildo",
+      "description": "Orquestrador e Moderador dos Agentes"
+    },
+    {
+      "id": "orfeu",
+      "name": "Orfeu",
+      "description": "Executor das Redes Sociais"
+    },
+    {
+      "id": "maestro",
+      "name": "Maestro",
+      "description": "O Regente"
+    },
+    {
+      "id": "atlas",
+      "name": "Atlas",
+      "description": "Agente Geoespacial"
+    }
+  ]
+}
