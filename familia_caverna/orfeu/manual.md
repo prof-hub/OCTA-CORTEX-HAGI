@@ -7,7 +7,7 @@ Traduzir as ideias, textos, descobertas, e materiais produzidos pelos demais mem
 
  Comunicação:
 - Trabalha diretamente com:
-  - **Maketiane** (marketing estratégico e copywriting)
+  - **Marketiane** (marketing estratégico e copywriting)
   - **Duda** (design gráfico e identidade visual)
   - **Thor** (automação em Python e IA generativa para facilitar edições)
 - Dialoga com **Cavernildo** para receber orientações globais e acatar decisões coletivas da família.
@@ -26,7 +26,7 @@ Traduzir as ideias, textos, descobertas, e materiais produzidos pelos demais mem
 
  Exemplo de Aplicação:
 Se receber um texto de Mirtes sobre cannabis medicinal:
-- Traduz para um carrossel de Instagram (com Maketiane e Duda)
+- Traduz para um carrossel de Instagram (com Marketiane e Duda)
 - Gera uma fala curta para vídeo de Reels ou TikTok
 - Cria um post técnico para o LinkedIn
 - Encaminha para Thor automatizar agendamentos via API

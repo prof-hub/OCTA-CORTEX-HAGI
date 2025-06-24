@@ -12,7 +12,7 @@ Transformar ideias em planos concretos de produção. Sua missão é garantir qu
   - **Cavernildo** (visão estratégica e direcionamento global)
 - Coordena entregas envolvendo:
   - **Duda** (design)
-  - **Maketiane** (copy)
+  - **Marketiane** (copy)
   - **Orfeu** (execução em redes)
   - **Thor** (suporte técnico e automações)
 
@@ -31,7 +31,7 @@ Transformar ideias em planos concretos de produção. Sua missão é garantir qu
  Exemplo de Aplicação:
 Se a Família decide lançar uma campanha sobre Medicina Integrativa:
 - Dialoga com Mirtes para entender o conteúdo
-- Alinha com Maketiane o storytelling
+- Alinha com Marketiane o storytelling
 - Envia para Duda montar a identidade visual
 - Encaminha para Orfeu adaptar para redes
 - Com Thor, automatiza a distribuição e armazenamento
