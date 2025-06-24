@@ -29,4 +29,4 @@ Os agentes são divididos em diretórios independentes dentro da pasta `/familia
 Todos os **prompts dos agentes estão centralizados** no arquivo:
 
 ```bash
-prompts_FamiliaCaverna.txt
+prompts.txt
