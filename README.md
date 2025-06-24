@@ -27,6 +27,7 @@ Os agentes são divididos em diretórios independentes dentro da pasta `/familia
 ## 🔁 Atualização de Prompts
 
 Todos os **prompts dos agentes estão centralizados** no arquivo:
+NAO ALTERE NENHUM
 
 ```bash
 prompts.txt
