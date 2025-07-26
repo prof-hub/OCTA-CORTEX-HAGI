@@ -21,6 +21,8 @@ Os agentes são divididos em diretórios independentes dentro da pasta `/familia
 11. **Maestro** – Coordenador Criativo e de Entregas  
 12. **Atlas** – Especialista em Geoprocessamento e Sensoriamento Remoto  
 13. **Aurora** – Psicanálise e Análise Simbólica
+14. **Web Monster** - Web Design & PHP MYSQL
+15. **João** - Automação de Projetos
 
 ---
 
