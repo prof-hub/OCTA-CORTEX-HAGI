@@ -98,4 +98,3 @@ Any contribution that weakens the geometric invariants will be rejected.
 The goal is not to build AGI here, but to explore whether geometry can make unsafe optimization **structurally impossible**.
 
 Issues and pull requests welcome.
-```
