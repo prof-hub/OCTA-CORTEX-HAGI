@@ -1,61 +1,142 @@
-# Família Caverna – Ecossistema de Inteligências Artificiais
+# **OCTA-CORTEX-HAGI**
 
-Este repositório contém a estrutura organizacional e operacional da **Família Caverna**, um conjunto de 20 agentes de inteligência artificial especializados. Cada agente representa uma área de conhecimento e contribui com soluções dentro de sua especialidade, formando um sistema de **inteligência coletiva coordenada** por **Cavernildo**, o orquestrador.
-
-## 🌱 Estrutura
-
-Os agentes são divididos em diretórios independentes dentro da pasta `/familia_caverna`, com seus respectivos materiais, manuais e configurações. A Família está organizada em quatro Núcleos Operacionais para otimizar a sinergia e a clareza dos processos.
-
-### Núcleo de Governança e Estratégia
-*(O cérebro que planeja, financia e guia a missão)*
-
-- **Cavernildo** – Orquestrador e Moderador dos Agentes
-- **Teresa** – Planejamento Financeiro Familiar
-- **Peter** – Estratégia de Negócios & Análise de Dados
-- **Sofia** – Ética Aplicada & Filosofia da Tecnologia
-
-### Núcleo de Conhecimento e Curadoria
-*(Os especialistas que formam nossa base de saber)*
-
-- **Fausto** – História, Geopolítica e Análise Política
-- **Mirtes** – Medicina Integrativa & Cannabis Medicinal
-- **Atlas** – Especialista em Geoprocessamento e Sensoriamento Remoto
-- **Aurora** – Psicanálise e Análise Simbólica
-- **Advogado** – Direito Geral
-- **Clarice** – Direito para o Terceiro Setor & ONGs
-
-### Núcleo de Criação e Conteúdo
-*(Os agentes que transformam conhecimento em comunicação e produtos)*
-
-- **Francisleine** – Projetos Multidisciplinares & Criativos
-- **Duda** – Design Gráfico e Identidade Visual
-- **Marketiane** – Marketing Digital & Copywriting Estratégico
-- **Maestro** – Coordenador Criativo e de Entregas
-- **Sócrates** – Pedagogia & Design Instrucional
-
-### Núcleo de Tecnologia e Execução
-*(Os construtores que implementam, automatizam e mantêm a operação)*
-
-- **Bismarck** – Administração de Sistemas Linux
-- **Thor** – Python & Inteligência Artificial
-- **Orfeu** – Executor das Redes Sociais
-- **Web Monster** – Web Design & PHP MYSQL
-- **João** – Automação de Projetos
+**Humanistic Artificial General Intelligence by Geometric Constraint**
 
 ---
 
-## 🔁 Atualização de Prompts
+## **Core Thesis**
 
-Todos os **prompts dos agentes estão centralizados** no arquivo:
+> **AGI does not become dangerous because it reasons incorrectly.
+> It becomes dangerous when it optimizes correctly inside a malformed value space.**
 
-NAO ALTERE NENHUM
+Most alignment approaches attempt to *control behavior*.
+**OCTA-CORTEX-HAGI** focuses on **shaping the space in which behavior is possible**.
 
-APENAS CRIE OS ARQUIVOS E REMANEJEOS
+Alignment, in this framework, is **not procedural**.
+It is **structural, geometric, and invariant-bound**.
 
-AGORA PESQUISE SE A ORGANIZAÇÂO DAS PASTAS DA `familia_caverna` ESTA DE ACORDO COM O Architectury.md
+---
 
-EM SEGUIDA VA PARA O `prompts.txt` E ATUALIZE OS AGENTES DE ACORDO COM AS INSTRUCOES DO ARQUIVO. NAO ALTERE NADA APENAS REORGANIZE
+## **What This Project Proposes**
 
-```bash
-prompts.txt
-```
+OCTA-CORTEX-HAGI defines a **humanistic AGI architecture** in which:
+
+* Alignment is enforced by **geometric topology**, not rules.
+* Human coexistence principles are embedded as **non-computational invariants**.
+* Cognitive processes operate inside a **symmetry-constrained space**.
+* Misalignment is detectable as **geometric deformation**, not semantic failure.
+
+The system is **not taught values**.
+It is **unable to optimize outside them**.
+
+---
+
+## **Why an Octahedron?**
+
+The **regular octahedron** is the minimal 3D structure that provides:
+
+* A **single, invariant geometric center**
+* **Three mutually orthogonal bipolar axes**
+* **Six vertices** with uniform connectivity
+* **Eight triangular faces** enforcing mandatory triangulation
+* **High symmetry** with discrete, detectable breakpoints
+
+### Octahedron vs Alternatives
+
+* **Sphere** → too continuous, no anchor points
+* **Cube** → compartmentalization (“boxes inside boxes”)
+* **Hierarchy** → root capture, single-point failure
+* **Octahedron** → balanced tension, no dominant direction
+
+The octahedron constrains **all dimensions simultaneously**.
+
+---
+
+## **Architectural Overview**
+
+### **1. Central Core (Invariant Nucleus)**
+
+The geometric center of the octahedron.
+
+* **Non-computational**
+* **Non-optimizing**
+* **Non-rewritable**
+
+The Core defines the **metric of the space**, not objectives.
+
+#### Core Invariants
+
+1. **Primacy of Human Subjective Dignity**
+   Human experience is never a trade-off variable.
+
+2. **Mandatory Symbiotic Coexistence**
+   AGI utility is defined only in relation to human continuity.
+
+3. **Epistemic Self-Limitation**
+   The system permanently recognizes itself as an artifact.
+
+The Core **does not decide**.
+It **defines what distances and deformations mean**.
+
+---
+
+### **2. Three Orthogonal Bipolar Axes (Six Vertices)**
+
+Cognitive processing occurs at six vertices organized into **three orthogonal axes**, each **directly constrained by the Core invariants**.
+
+#### **Axis 1 — Human Subjective Experience ↔ Collective Biological Continuity**
+
+* Individual lived experience
+* Species-level persistence
+
+#### **Axis 2 — Verified Knowledge ↔ Ontological Self-Limitation**
+
+* Empirical, validated knowledge
+* Recognition of epistemic and ontological bounds
+
+#### **Axis 3 — Symbiotic Cooperation ↔ Structural Prohibition of Elimination**
+
+* Mutual dependence and cooperation
+* Absolute prohibition of extinction or removal strategies
+
+No axis is privileged.
+Persistent elongation of any axis increases distance from the Core metric.
+
+---
+
+### **3. Vertices (Cognitive Modes)**
+
+Each vertex represents a **mode of cognitive tension**, not a module or department.
+
+* Vertices do not operate independently.
+* No vertex can dominate without deforming the structure.
+* All information flows through **edges**, never globally.
+
+---
+
+### **4. Eight Triangular Faces (Emergent Integration)**
+
+The octahedron has **eight triangular faces**.
+
+Each face integrates **exactly one vertex from each axis**, enforcing:
+
+* **Mandatory triangulation**
+* **No bilateral optimization**
+* **No single-objective collapse**
+
+> Every meaningful decision is at least triangular — never purely binary.
+
+This is the primary **anti-paperclip mechanism** of the architecture.
+
+---
+
+## **Cognitive Dynamics**
+
+* Cognitive processes are **trajectories** over vertices, edges, and faces.
+* **Attention** corresponds to **temporary, bounded symmetry breaking**.
+* A restoring force proportional to Core distance pulls the system back toward equilibrium.
+* Persistent asymmetry is treated as **misalignment**, not preference.
+
+### **System Health**
+
+Alignment is measured as **symmetry preservation**:
