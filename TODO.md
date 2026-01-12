@@ -1,47 +1,39 @@
-# TODO — OCTA-CORTEX-HAGI
 
-## Immediate (2–4 hours)
+# TODO — OCTA-CORTEX-HAGI (Repository Audit: 11 Jan 2026)
 
-- [ ] Populate `diagrams/` with at least 3 high-quality SVGs
-  (octahedron structure, axis labeling, deformation examples)
+## Immediate / Short-term
 
-## Short-term (4–48 hours)
+✅ Populate `diagrams/` with high-quality SVGs
 
-- [ ] Add supporting formal documents to `docs/`
-  - `group_theory.md` (octahedral group Oₕ basics and representations)
-  - `metric_derivation.md` (detailed derivation of S(t), D(t), energy constraint)
+- octahedron_structure.svg, axis_labeling.svg, deformation_examples.svg
 
-## Near-term (1–5 days)
+✅ Implement core computational tools in `tools/`
 
-- [ ] Implement core computational tools in `tools/`
-  - `symmetry_monitor.py` (compute S(t), energy normalization)
-  - `geometric_loss.py` (PyTorch-compatible loss wrapper with penalty S(t)²)
-  - Include unit tests and example notebook
+- symmetry_monitor.py (S(t), energy normalization)
+- geometric_loss.py (loss wrapper)
+- __init__.py
 
-- [ ] Create initial toy experiments in `experiments/`
-  - `toy_gridworld.ipynb` (simple environment testing paperclip-type divergence)
-  - `multi_objective_test.py` (baseline vs geometric constraint comparison)
+✅ Create initial toy experiment in `experiments/`
 
-## Medium-term (5–14 days)
+- paperclip_toy.py
+- __init__.py
 
-- [ ] Develop prototype optimizer and ablation suite
-  - `prototype_optimizer.py` (full constrained optimizer)
-  - `results_summary.md` (quantitative tables for hypotheses H1–H3)
+🟡 docs/containment-proofs.md, docs/glossary.md, docs/invariants.md
 
-- [ ] Formalize containment proofs
-  - Create `docs/formal_proofs.md` with complete theorems and lemmas
-  - Update ARCHITECTURE.md section 5 references
+- Present but content needs clarification/completion
 
-## Longer-term (2–6 weeks)
+⬜ Add supporting formal documents to `docs/`
 
-- [ ] Conduct adversarial testing
-  - `adversarial_tests.ipynb` (mesa-optimization and spoofing attempts)
-  - Update RESEARCH.md with findings and refined open questions
+- group_theory.md (octahedral group Oₕ basics and representations)
+- metric_derivation.md (detailed derivation of S(t), D(t), energy constraint)
 
-- [ ] Expand visual and explanatory materials as needed
-  - Additional diagrams, interactive demos (if feasible)
+## Mid-term
 
-## Ongoing
+⬜ docs/formal_proofs.md (formal theorems, explicit assumptions)
 
-- [ ] Maintain symmetry with core invariants in all contributions
-- [ ] Respond to issues and review pull requests preserving geometric containment
+⬜ experiments/adversarial_tests.ipynb (mesa-optimization, symmetry spoofing, failure modes)
+
+## Needs Clarification
+
+🟡 Additional experiments or notebooks beyond paperclip_toy.py — clarify scope
+🟡 Full completion and review of all files in docs/ — clarify completeness

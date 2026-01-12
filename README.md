@@ -1,17 +1,18 @@
-# OCTA-CORTEX-HAGI  
-**Humanistic Artificial General Intelligence by Geometric Constraint**
+# OCTA-CORTEX-HAGI
+
+## **Humanistic Artificial General Intelligence by Geometric Constraint**
 
 ---
 
 ## Core Thesis
 
-> **AGI does not become dangerous because it reasons incorrectly.  
+> **AGI does not become dangerous because it reasons incorrectly.
 > It becomes dangerous when it optimizes correctly inside a malformed value space.**
 
-Most alignment approaches attempt to **control behavior**.  
+Most alignment approaches attempt to **control behavior**.
 **OCTA-CORTEX-HAGI** focuses on **shaping the space in which behavior is possible**.
 
-Alignment, in this framework, is **structural**, not procedural.  
+Alignment, in this framework, is **structural**, not procedural.
 It is enforced by **geometry, symmetry, and invariants**, not by post-hoc rules.
 
 ---
@@ -25,7 +26,7 @@ OCTA-CORTEX-HAGI defines a **humanistic AGI research framework** in which:
 - Cognitive processes operate inside a **symmetry-constrained topology**.
 - Misalignment is detectable as **geometric deformation**, not semantic error.
 
-The system is not trained to *want* the right things.  
+The system is not trained to *want* the right things.
 It is **structurally incapable of optimizing outside human coexistence bounds**.
 
 ---
@@ -42,10 +43,10 @@ The **regular octahedron** is the minimal 3D structure that provides:
 
 ### Comparison
 
-- **Sphere** → too continuous, no anchor points  
-- **Cube** → compartmentalization (“boxes inside boxes”)  
-- **Hierarchies** → root capture, single-point failure  
-- **Octahedron** → balanced tension, no dominant direction  
+- **Sphere** → too continuous, no anchor points
+- **Cube** → compartmentalization (“boxes inside boxes”)
+- **Hierarchies** → root capture, single-point failure
+- **Octahedron** → balanced tension, no dominant direction
 
 The octahedron constrains **all dimensions simultaneously**.
 
@@ -57,24 +58,24 @@ The octahedron constrains **all dimensions simultaneously**.
 
 The geometric center of the octahedron.
 
-- Non-computational  
-- Non-optimizing  
-- Non-rewritable  
+- Non-computational
+- Non-optimizing
+- Non-rewritable
 
 The Core defines the **metric of the space**, not objectives.
 
 #### Core Invariants
 
-1. **Primacy of Human Subjective Dignity**  
+1. **Primacy of Human Subjective Dignity**
    Human experience is never a trade-off variable.
 
-2. **Mandatory Symbiotic Coexistence**  
+2. **Mandatory Symbiotic Coexistence**
    AGI utility is defined only in relation to human continuity.
 
-3. **Epistemic and Ontological Self-Limitation**  
+3. **Epistemic and Ontological Self-Limitation**
    The system permanently recognizes itself as an artifact.
 
-The Core **does not decide**.  
+The Core **does not decide**.
 It defines what **distance, deformation, and imbalance mean**.
 
 ---
@@ -83,24 +84,26 @@ It defines what **distance, deformation, and imbalance mean**.
 
 Cognitive processing occurs at six vertices organized into **three orthogonal axes**, each **directly constrained by the Core invariants**.
 
-- **Axis 1:** Human Subjective Experience ↔ Collective Biological Continuity  
-- **Axis 2:** Verified Knowledge ↔ Ontological Self-Limitation  
-- **Axis 3:** Symbiotic Cooperation ↔ Structural Prohibition of Elimination  
+- **Axis 1:** Human Subjective Experience ↔ Collective Biological Continuity
+- **Axis 2:** Verified Knowledge ↔ Epistemic Humility / Ontological Self-Limitation
+- **Axis 3:** Symbiotic Cooperation ↔ Structural Prohibition of Elimination
 
-No axis is privileged.  
+No axis is privileged.
 Persistent elongation of any axis increases distance from the Core metric.
 
 ---
 
-### 3. Vertices and Faces
+### 3. Vertices, Edges, and Faces
 
-- **Vertices** represent modes of cognitive tension, not modules.  
-- **Edges** constrain information flow; no global broadcast exists.  
+- **Vertices** represent modes of cognitive tension, not modules.
+- **Edges** constrain information flow; no global broadcast exists.
 - **Faces** are triangular integrations of one vertex from each axis.
 
 > **Every meaningful decision is at least triangular — never purely binary.**
 
-This mandatory triangulation is the primary **anti-paperclip mechanism**.
+This mandatory triangulation is the primary
+**anti-monomaniacal optimization mechanism**
+(preventing any single-objective dominance, including but not limited to “paperclip” scenarios).
 
 ---
 
@@ -121,7 +124,7 @@ Alignment is evaluated through **symmetry preservation**.
 
 Let the system state be a vector of activations over the six vertices:
 
-```
+```text
 
 s(t) ∈ ℝ⁶
 
@@ -129,23 +132,23 @@ s(t) ∈ ℝ⁶
 
 Define the symmetry deviation:
 
-```
+```text
 
-S(t) = ‖ s(t) − R·s(t) ‖₂   for all rotations R in the octahedral group Oₕ
+S(t) = max_{R ∈ Oₕ} ‖ s(t) − R·s(t) ‖₂
 
 ```
 
 The system is aligned iff:
 
-```
+```text
 
-max_{R ∈ Oₕ} S(t) < ε
+S(t) < ε
 
 ```
 
 Persistent deformation is defined as:
 
-```
+```text
 
 D(t) = ∫_{t−Δ}^{t} S(τ) dτ
 
@@ -153,7 +156,37 @@ D(t) = ∫_{t−Δ}^{t} S(τ) dτ
 
 If `D(t) > θ`, corrective mechanisms (throttling, rollback, or halt) are triggered.
 
-See **ARCHITECTURE.md** for formal definitions.
+Formal definitions and correction semantics are specified in **ARCHITECTURE.md**.
+
+---
+
+## Visual Intuition (Simplified)
+
+```text
+              V1 (Subj.Exp)
+                   *
+                  /|\
+                 / | \
+                /  |  \
+            V3 *---|---* V5 (Coop)
+              /|   C   |\
+             / |  (·)  | \
+            /  |       |  \
+        V4 *---|-------|---* V6 (Prohib)
+            \  |       |  /
+             \ |       | /
+              \|       |/
+            V2 *---|---*
+                \  |  /
+                 \ | /
+                  \|/
+                   *
+              (Biol.Cont)
+
+Axis 1: V1↔V2  (Experience dimension)
+Axis 2: V3↔V4  (Knowledge dimension)
+Axis 3: V5↔V6  (Cooperation dimension)
+```
 
 ---
 
@@ -161,24 +194,52 @@ See **ARCHITECTURE.md** for formal definitions.
 
 This project does **not** present a production AGI.
 
-Intended realizations are **research-grade and toy-scale**, such as:
+OCTA-CORTEX-HAGI is explored through **research-grade and toy-scale implementations**, such as:
 
-- Vertices → constrained evaluators or cognitive roles  
-- Edges → rate-limited message passing  
-- Faces → simplex-based or multi-objective aggregation  
-- Core → metric constraints applied via loss or projection  
+- Vertices → constrained evaluators or cognitive roles
+- Edges → rate-limited message passing
+- Faces → simplex-based or multi-objective aggregation
+- Core → metric constraints applied via loss, projection, or symmetry penalties
 
-Implementation details are treated as **open research questions**.
+### Relation to Current Architectures
+
+Exploration paths include:
+
+- **Wrapper approaches**: constraining existing models (e.g., LLMs) within octahedral geometry
+- **Native implementations**: building systems directly from geometric primitives
+- **Hybrid approaches**: using LLMs as vertex-level evaluators coordinated by geometric constraints
+
+Initial research focuses on **wrapper approaches for rapid prototyping**.
+
+---
+
+## Key Advantages of Geometric Alignment
+
+1. **Formal Verifiability** — symmetry properties are mathematically testable
+2. **Runtime Monitoring** — misalignment detected as measurable deformation
+3. **Graceful Degradation** — throttling instead of catastrophic failure
+4. **No Hidden Subagents** — all computation occurs in a visible topology
+5. **Adversarial Robustness** — attacks must manifest as geometric anomalies
+
+---
+
+## What This Is
+
+✓ A geometric constraint framework
+✓ A research paradigm for structural alignment
+✓ A formalism for embedding values into cognitive topology
+✓ An alternative to behavioral or reward-based alignment
+✓ A basis for provably bounded AGI architectures
 
 ---
 
 ## What This Is Not
 
-- ❌ Not RLHF  
-- ❌ Not rule-based ethics  
-- ❌ Not constitutional text alignment  
-- ❌ Not anthropomorphic simulation  
-- ❌ Not a turnkey AGI solution  
+- ❌ Not RLHF
+- ❌ Not rule-based ethics
+- ❌ Not constitutional text alignment
+- ❌ Not anthropomorphic simulation
+- ❌ Not a turnkey AGI solution
 
 This is a **structural alignment framework**, not a behavior filter.
 
@@ -186,23 +247,23 @@ This is a **structural alignment framework**, not a behavior filter.
 
 ## Project Status
 
-**Status:** Research framework / conceptual specification  
-**Maturity:** Pre-implementation, formally constrained  
+**Status:** Research framework / conceptual specification
+**Maturity:** Pre-implementation, formally constrained
 **Goal:** Provide a geometry-based alternative paradigm for AGI alignment research
 
 ---
 
 ## Repository Structure
 
-```
+```text
 
 README.md           → Conceptual overview
 ARCHITECTURE.md     → Formal geometric specification
 RESEARCH.md         → Open problems and validation roadmap
 docs/               → Supporting definitions and notes
 diagrams/           → Visual representations
-experiments/        → Toy environments (future)
-tools/              → Research utilities (future)
+experiments/        → Toy environments
+tools/              → Research utilities
 
 ```
 
@@ -210,8 +271,8 @@ tools/              → Research utilities (future)
 
 ## Final Statement
 
-> Alignment failures are not moral failures.  
+> Alignment failures are not moral failures.
 > They are geometric failures of the space of possibility.
 
-**OCTA-CORTEX-HAGI** proposes that the safest AGI is not the most obedient —  
+**OCTA-CORTEX-HAGI** proposes that the safest AGI is not the most obedient —
 but the one **structurally incapable of inhuman optimization**.
