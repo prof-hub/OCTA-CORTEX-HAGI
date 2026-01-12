@@ -18,3 +18,4 @@ experiments/**/runs/
 experiments/**/artifacts/
 *.log
 
+.github/
