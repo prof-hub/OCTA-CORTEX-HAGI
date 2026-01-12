@@ -1,10 +1,20 @@
 # Python
 __pycache__/
 *.pyc
-*.pyo
-*.pyd
-.env
-.venv/
 
-# OS
+# Virtual envs
+.venv/
+venv/
+.env
+
+# OS/editor
 .DS_Store
+.vscode/
+.idea/
+
+# Experiment outputs (keep prompts/code, ignore generated artifacts)
+experiments/**/outputs/
+experiments/**/runs/
+experiments/**/artifacts/
+*.log
+
